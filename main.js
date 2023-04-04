@@ -19,3 +19,8 @@ console.log("Ejercicio 2")
 const sumarEdades = personajesMenores18.reduce((suma, personajesMenores18) => suma + personajesMenores18.edad, 0);
 console.log(sumarEdades);
 
+console.log("Ejercicio 3")
+const nuevoArray = personajesSimpson.map(personajesSimpson => personajesSimpson.edad < 18);
+console.log(nuevoArray);
+
+
