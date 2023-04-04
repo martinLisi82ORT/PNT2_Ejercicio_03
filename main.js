@@ -11,8 +11,11 @@ const personajesSimpson = [
     { nombre: "Martin", edad: 10, rol: "Compañero de clase" },
 ]
 
+console.log("Ejercicio 1")
 const personajesMenores18 = personajesSimpson.filter(personaje => personaje.edad < 18)
 console.log(personajesMenores18);
 
-
+console.log("Ejercicio 2")
+const sumarEdades = personajesMenores18.reduce((suma, personajesMenores18) => suma + personajesMenores18.edad, 0);
+console.log(sumarEdades);
 
