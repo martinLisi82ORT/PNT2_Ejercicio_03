@@ -23,14 +23,19 @@ console.log("Ejercicio 3")
 const nuevoArray = personajesMenores18.map(personaje => personaje.nombre)
 console.log(nuevoArray);
 
-/*"Ejercicio 4")
-const nuevoArray2 = personajesMenores18.map(personaje => personaje.rol = "Estudiante")
-console.log(nuevoArray2);
-
-console.log(personajesMenores18.length);
-const [uno, dos, tres, cuatro, cinco, seis, siete] = personajesMenores18;
-uno.rol = "Estudiante";
+console.log("Ejercicio 4")
+/*
+const nuevoArrayEstudiantes = personajesMenores18.map(personaje => personaje )
+console.log(nuevoArrayEstudiantes);
 */
+/*
+const array2 = personajesMenores18.map(personaje => personaje)
+const personaje = [uno, dos, tres, cuatro, cinco, seis, siete] = array2.rol;
+personaje.rol = "Estudiante";
+
+console.log(array2);
+*/
+
 
 console.log("Ejercicio 5")
 const nuevosPersonajes = [
