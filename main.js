@@ -21,7 +21,26 @@ console.log(sumarEdades);
 
 console.log("Ejercicio 3")
 const nuevoArray = personajesMenores18.map(personaje => personaje.nombre)
-    console.log(nuevoArray);
+console.log(nuevoArray);
+
+/*"Ejercicio 4")
+const nuevoArray2 = personajesMenores18.map(personaje => personaje.rol = "Estudiante")
+console.log(nuevoArray2);
+
+console.log(personajesMenores18.length);
+const [uno, dos, tres, cuatro, cinco, seis, siete] = personajesMenores18;
+uno.rol = "Estudiante";
+*/
+
+console.log("Ejercicio 5")
+const nuevosPersonajes = [
+    { nombre: "Skinner", edad: 40, rol: "Director" },
+    { nombre: "Krusty", edad: 45, rol: "Payaso" },
+    { nombre: "Burns", edad: 104, rol: "Jefe" },
+    { nombre: "Troy McClure", edad: 40, rol: "Actor" },
+]
+const nuevosPersonajesSimpson = [...personajesSimpson, ...nuevosPersonajes];
+console.log(nuevosPersonajesSimpson);
 
 
 
